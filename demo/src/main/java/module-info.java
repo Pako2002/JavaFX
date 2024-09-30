@@ -16,4 +16,6 @@ module com.example.demo {
     opens com.example.demo.FirstVideo to javafx.fxml;
     exports com.example.demo.SecondVideo;
     opens com.example.demo.SecondVideo to javafx.fxml;
+    exports com.example.demo.SceneBuilderUno;
+    opens com.example.demo.SceneBuilderUno to javafx.fxml;
 }
